@@ -1,0 +1,41 @@
+.navcustom {
+  background-color: #DD401E;
+
+}
+.background {
+
+}
+.img {
+  height: 100vh;
+  background-color: #DD401E;
+}
+
+.bgwidget {
+  background-image: url('/img/wok.jpg');
+  height: 500px;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.insidewidget {
+  height: 500px;
+}
+.row {
+  height: 300px;
+}
+
+.lilbox {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px black solid;
+}
+.ourFood {
+  background-image: url('/img/ourFoodSQ.jpg');
+
+}
+.ourStory {
+  background-image: url('/img/AboutVictorSQ.jpg');
+  background-position: 0 0;
+}
+.contactUs {
+
+}
