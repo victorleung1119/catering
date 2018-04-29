@@ -16,18 +16,13 @@
   background-size: cover;
   background-repeat:no-repeat;
 }
-.insidewidget {
-  height: 500px;
-}
-.row {
-  height: 300px;
-}
 
 .lilbox {
   background-size: cover;
   background-repeat: no-repeat;
   border: 1px black solid;
 }
+
 .ourFood {
   background-image: url('/img/ourFoodSQ.jpg');
 
