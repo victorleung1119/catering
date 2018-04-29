@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Home from './routes/Home/components/Home/Home'
+import About from './routes/About/components/About/About'
+import Header from './components/Header/Header'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
 class App extends Component {
@@ -7,10 +10,25 @@ class App extends Component {
     // Return JSX code.
     return (
       <div className="App p-1">
-        <Home />
+        <Router>
+          <div>
+            <Header />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+          </div>
+        </Router>
       </div>
-    );
+    )
   }
 }
+
+/* Another way to write ^^ */
+// const App = () => {
+//   (
+//     <div className="App p-1">
+//       <Home />
+//     </div>
+//   )
+// }
 
 export default App;
