@@ -19,3 +19,9 @@
   background-image: url('/img/AboutVictorSQ.jpg');
   background-position: 0 0;
 }
+
+@media (max-width: 766px) {
+  .bgwidget {
+    background-position: 77% 0 ;
+  }
+}

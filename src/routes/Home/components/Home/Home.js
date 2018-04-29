@@ -20,16 +20,20 @@ class Home extends Component {
           </div>
         </div>
         <div className="container-fluid py-1">
-          <div className="row" style={{
-            height: `300px`,
-          }}>
-            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid ourFood text-light">
+          <div className="row" >
+            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid ourFood text-light" style={{
+              height: `300px`,
+            }}>
               <h3>OUR FOOD</h3>
             </div>
-            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid ourStory text-light">
+            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid ourStory text-light" style={{
+              height: `300px`,
+            }}>
               <h3>OUR STORY</h3>
             </div>
-            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid contactUs">
+            <div className="col-12 col-sm-4 p-1 d-flex align-items-center justify-content-center lilbox img-fluid contactUs" style={{
+              height: `300px`,
+            }}>
               <h3>CONTACT US</h3>
             </div>
          </div>
