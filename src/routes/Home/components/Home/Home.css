@@ -3,12 +3,13 @@
   height: 500px;
   background-size: cover;
   background-repeat:no-repeat;
+  margin-top: 70px;
 }
 
 .lilbox {
   background-size: cover;
   background-repeat: no-repeat;
-  border: 1px black solid;
+  border: 0px black solid;
 }
 
 .ourFood {
@@ -23,5 +24,11 @@
 @media (max-width: 766px) {
   .bgwidget {
     background-position: 77% 0 ;
+  }
+  .rowlilbox {
+    margin: 0.1rem
+  }
+  .lilbox {
+    margin: .1rem 0;
   }
 }

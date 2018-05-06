@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-
+import './Header.css'
 class Header extends Component {
   render() {
     return (
       <nav
-        className="Header navbar fixed-top navbar-expand-lg navbar-dark navcustom m-1" style={{
+        className="Header navbar fixed-top navbar-expand-lg navbar-dark navcustom mx-1 m-sm-1" style={{
           backgroundColor: `#DD401E`,
         }}>
         <Link className="navbar-brand" to="/"><h2>Victor Fung Catering</h2></Link>
