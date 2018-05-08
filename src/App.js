@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 import Home from './routes/Home/components/Home/Home'
 import About from './routes/About/components/About/About'
 import Contact from './routes/Contact/components/Contact/Contact'
@@ -7,6 +8,10 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 
 class App extends Component {
+  static propTypes = {
+    firebase: PropTypes.object.isRequired,
+  }
+
   render() {
     // Return JSX code.
     return (
